@@ -23,4 +23,4 @@ class Order:
     """
 ```
 
-The program works unaltered.
+The program works unaltered, to read the complete information, see [The Restaurant](https://github.com/JuliAnMelo/reto_03_POO_2024-1_JAMB?tab=readme-ov-file#the-restaurant) and [The Restaurant Part II](https://github.com/JuliAnMelo/reto_04_POO_2024-1_JAMB#the-restaurant-part-ii)
