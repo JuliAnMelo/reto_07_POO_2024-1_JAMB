@@ -3,16 +3,24 @@
 It was added a iterable, it permits to process ``MenuItem`` objects loops as a method in ``Order`` class: 
 
 ```python
-def __iter__(self):
-    self._index = 0
-    return self
-def __next__(self):
-    if self._index < len(self.items):
-        item = self.items[self._index]
-        self._index += 1
-        return item
-    else:
-        raise StopIteration 
+class Order:
+    """
+    """
+
+    def __iter__(self):
+        self._index = 0
+        return self
+
+    def __next__(self):
+        if self._index < len(self.items):
+            item = self.items[self._index]
+            self._index += 1
+            return item
+        else:
+            raise StopIteration
+
+    """
+    """
 ```
 
 The program works unaltered.
